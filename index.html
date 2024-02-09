@@ -31,7 +31,12 @@
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div class="nav__hamburger">
+      <div class="nav__hamburger hamburger__show">
+        <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd" />
+        </svg>
+      </div>
+      <div class="nav__hamburger hamburger__hidden">
         <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
           <path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd" />
         </svg>
@@ -40,6 +45,14 @@
   </header>
   <main class="main">
     <section class="hero">
+      <div class="nav__mobile">
+        <ul>
+          <li class="nav__item"><a href="#about">About</a></li>
+          <li class="nav__item"><a href="#services">Services</a></li>
+          <li class="nav__item"><a href="#projects">Projects</a></li>
+          <li class="nav__item nav__item--white-bg"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
       <h1 class="hero__title">We are creatives</h1>
       <div>
         <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
@@ -175,11 +188,11 @@
     <div id="gallery__mobile">
       <div id="box__mobile1">
         <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="image  of milk bottles">
-        <img src="./images/mobile/image-gallery-orange.jpg" alt="Banner image for mobile">
+        <img src="./images/mobile/image-gallery-cone.jpg" alt="Banner image for mobile">
       </div>
       <div id="box__mobile2">
+        <img src="./images/mobile/image-gallery-orange.jpg" alt="Banner image for mobile">
         <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="Banner image for mobile">
-        <img src="./images/mobile/image-gallery-cone.jpg" alt="Banner image for mobile">
       </div>
     </div>
   </main>
@@ -192,6 +205,14 @@
         <li class="footer__item"><a href="#services">Services</a></li>
         <li class="footer__item"><a href="#projects">Projects</a></li>
       </ul>
+    </div>
+    <div id="nav__social__container">
+      <div class="nav__social">
+        <img src="./images/svg/icon-facebook.svg" alt="icon de facebook">
+        <img src="./images/svg/icon-instagram.svg" alt="icon de instagram">
+        <img src="./images/svg/icon-twitter.svg" alt="icon de twitter">
+        <img src="./images/svg/icon-pinterest.svg" alt="icon de pinterest">
+      </div>
     </div>
   </footer>
 </body>
